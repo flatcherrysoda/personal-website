@@ -1,0 +1,56 @@
+body{
+    background-image: url(https://wallpapers.com/images/hd/purple-and-black-aesthetic-stars-usfaj43hto0wxog2.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+@keyframes glow {
+0% {
+text-shadow: 0 0 15px rgb(145, 145, 223);
+}
+
+50% {
+text-shadow: none;
+}
+
+100% {
+text-shadow: 0 0 15px rgb(145, 145, 223);
+}
+}
+
+@-webkit-keyframes glow {
+0% {
+text-shadow: 0 0 15px rgb(145, 145, 223);
+}
+
+50% {
+text-shadow: 0 0 0;
+}
+
+100% {
+text-shadow: 0 0 15px rgb(145, 145, 223);
+}
+}
+
+#cherryweb {
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #9889cd;
+font-weight:bold;
+-webkit-animation: glow 2.0s linear infinite;
+-moz-animation: glow 2.0s linear infinite;
+-ms-animation: glow 2.0s linear infinite;
+-o-animation: glow 2.0s linear infinite;
+animation: glow 2.0s linear infinite;
+font-size: 150px;
+text-align: center;
+position: relative;
+top: 50px;
+}
+
+#enter{
+    position: relative;
+    left: 50%;
+}
